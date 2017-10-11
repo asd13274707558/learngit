@@ -1,0 +1,191 @@
+/*背景颜色*/
+body{
+ 	background-color:#f3f5f7;
+	padding:0; margin:0;/*去浏览器自带外围白框*/
+	height: :;00px;
+	
+}
+
+.main{
+	background-color:#fff;
+	width: auto;	
+	height: 78px;
+	display:flex;/*弹性布局*/
+	flex-wrap: wrap;/*弹性布局,必要时拆行*/
+	margin: auto/*设置外边据 与浏览器自动*/;
+	border: 1px solid #ddd;
+	box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);		
+}
+
+.nav{
+	display:flex;
+	
+	
+}
+
+.nav .nav2{
+	width:auto;
+	height: 43px;
+	display:block;
+	padding:2px;
+	
+}
+
+.nav .nav2 ul{
+	list-style-type:none; /*设置文字没有原点*/
+	
+}
+.nav .nav2 ul li{
+	display: inherit;/*设置内联元素没有换行符*/
+	float: left;/*排列方式 →*/
+	margin: 10px;
+	color: #000000;
+
+}
+.nav .nav2 ul a{
+	text-decoration:none;/*去下划线*/
+	  float:left;/*排列方式 →*/
+	 	  color: #000000;
+}
+a:link {color:black};/* 未访问的链接*/
+a:hover {color: black};/* 鼠标移动到链接上 */
+	/* 已访问的链接 a:visited {color: #black}*/
+	/* 选定的链接 a:active {color: white}*/
+
+.main .input {
+	display:block;
+}
+.main .input .input1{
+	margin: 29px;
+	width: 270px;
+	border:0px;/*将文本框边框去除*/
+	outline:none;/*选中时没有边框*/
+	
+	
+}
+.main .input .ccc{
+	width: 280px;
+	height: 0px;
+	border: 1px solid #ddd;
+	position: relative;/*相对定位*/
+	top: -19px;
+	left: 24px;
+	
+}
+		
+.main .input .ccc .ccc1{
+	width: 64px;
+	height: 24px;
+	background-color:#f3f5f7;
+	position: relative;/*相对定位*/
+	top: -43px;
+	left: 118px;
+	border-radius:10px;/*设置四个边全为10px的圆角*/	
+}
+.main .input .ccc .ccc2{
+	width: 64px;
+	height: 24px;
+	background-color:#f3f5f7;
+	position: relative;/*相对定位*/
+	top: -83px;
+	left: 190px;
+	border-radius: 10px; /*设置四个边全为10px的圆角*/
+}
+
+.main .input .ccc  a{
+	text-decoration:none;/*去下划线*/
+	color: #000000;
+}
+.main .input .ccc .ccc3{
+	position: relative;/*相对定位*/
+	top: -107px;
+	left: 256px;
+}
+
+
+.img {
+	text-align:center;
+	box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+}
+.img #sanjiaoyou{
+	position: relative;/*相对定位*/
+	top: -205px;
+	left: -73px;
+}
+.img #sanjiaozuo{
+	position: relative;/*相对定位*/
+	top: -205px;
+	left: -1000px;
+}
+
+
+
+
+.tanchu{
+	width: 500px;	
+	height: 460px;
+	
+	position: absolute;/*绝对定位*/
+	top: 101px;
+	left: 279px;
+	display: none;
+	
+}
+
+.tanchuzuo{
+	width: 200px;	
+	height: 460px;
+	background-color:blue;
+	position: absolute;/*相对定位*/
+	top: 101px;
+	left: 79px;
+	
+}
+.tanchuzuo ul{
+	list-style-type:none; /*设置文字没有原点*/
+	
+}
+.tanchuzuo ul a{
+	text-decoration:none;/*去下划线*/
+	color: #f3f5f7;
+	
+	
+	
+	
+}
+.tanchuzuo ul li{
+	margin: 20px;
+	line-height: 40px;
+}
+.tanchuzuo1{
+	border-bottom: 1px solid white;
+}
+
+.tanchushijian{
+	display:flex;/*弹性布局*/
+	flex-wrap: wrap;/*弹性布局,必要时拆行*/
+	margin: 20px;
+	line-height: 10px;/*垂直居中*/
+	position: relative;/*相对定位*/
+	top: 0px;
+	left: 223px;
+}
+.tanchushijian .tanchushijian1{
+	margin-left: 20px;
+}
+.tanchushijian .tanchushijian2{
+	margin-left: 20px;
+}
+.tanchushijian .tanchushijian3{
+	margin-left: 20px;
+}
+.tanchushijianimg{
+	position: fixed;/*绝对body定位*/
+	top: 79px;
+	left: 903px;
+	display: none;
+	
+}
+.tanchushijianimg .img{
+	
+}

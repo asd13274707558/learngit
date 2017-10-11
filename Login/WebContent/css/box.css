@@ -1,0 +1,31 @@
+#legend{
+	
+	background-color:#fff;	
+	width: 48px;
+	height: 220px;
+	position: fixed; /*固定不懂*/
+	left: 1365px;
+	top: 89px;
+	box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+/*	5:0 4px 8px 0 rgba(7,17,27,.1);*/
+}
+
+
+#legend_1{
+	width:auto;
+	height:51px ;
+	line-height: 70px;
+	text-align: center;
+}
+#down {
+	width:auto;
+	height:51px ;
+	box-shadow: 0 20px 20px 0 rgba(7,17,27,.1);	
+	border-top: 1px solid #fff;
+}
+
+
+#down p{
+text-align: center;
+
+}
